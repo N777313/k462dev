@@ -1,3 +1,4 @@
+console.log("SCRIPT LOADED 777");
 const API_URL = "https://89e2-212-46-56-10.ngrok-free.app/products/";
 
 
