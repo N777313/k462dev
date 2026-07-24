@@ -54,4 +54,3 @@ async function loadProducts() {
 
 
 loadProducts();
-y
