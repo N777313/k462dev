@@ -1,5 +1,5 @@
 cat script.js
-const API_URL = "http://192.168.100.254:8000/products/";
+const API_URL = "https://0bfb-212-46-56-10.ngrok-free.app/products/";
 
 
 async function loadProducts() {
@@ -54,3 +54,4 @@ async function loadProducts() {
 
 
 loadProducts();
+y
