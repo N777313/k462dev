@@ -1,45 +1,41 @@
+cat index.html
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Просмотр видео</title>
 
-    <style>
-        body {
-            margin: 0;
-            background: #120;
-            display: flex;
-            flex-wrap: wrap;        /* Разрешить перенос на новую строку */
-            align-items: center;
-            gap: 20px;
-            padding: 20px;
-        }
+    <title>
+        My Shop Dev web site
+    </title>
 
-video {
-    width: 45%;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255,255,255,.2);
-}
-    </style>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
 
-<video controls preload="metadata" style="width:30%;">
-    <source src="https://raw.githubusercontent.com/N777313/NURMMED-zhuyzuui24072026/main/swimming-pool/VID-20181222-WA0000.mp4" type="video/mp4">
-</video>
 
-<video controls preload="metadata" style="width:30%;">
-    <source src="https://raw.githubusercontent.com/N777313/NURMMED-zhuyzuui24072026/main/swimming-pool/VID-20201005-WA0000.mp4" type="video/mp4">
-</video>
+<h1>
+    My Shop
+</h1>
 
-<video controls preload="metadata" style="width:30%;">
-    <source src="https://raw.githubusercontent.com/N777313/NURMMED-zhuyzuui24072026/main/swimming-pool/VID-20190622-WA0036.mp4" type="video/mp4">
-</video>
 
-<video controls preload="metadata" style="width:30%;">
-    <source src="https://raw.githubusercontent.com/N777313/NURMMED-zhuyzuui24072026/main/swimming-pool/VID-20190815-WA0011.mp4" type="video/mp4">
-</video>
+<div id="products">
+
+    Loading products...
+
+</div>
+
+
+<script src="script.js"></script>
+
 
 </body>
+
 </html>
