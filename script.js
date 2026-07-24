@@ -1,5 +1,5 @@
 console.log("SCRIPT LOADED 777");
-const API_URL = "https://89e2-212-46-56-10.ngrok-free.app/products/";
+const API_URL = "https://4d97-212-46-56-10.ngrok-free.app/products/";
 
 
 async function loadProducts() {
